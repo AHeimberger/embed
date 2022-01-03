@@ -7,6 +7,7 @@
 #include "span.hpp"
 #include <tuple>
 #include <vector>
+#include <string>
 
 class Resource {
 public:

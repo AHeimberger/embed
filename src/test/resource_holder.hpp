@@ -67,5 +67,16 @@ public:
 	auto operator()(const char* file) const {
 		return Gather(std::string(file));
 	}
+
+	auto FileContent(const std::string& file) const {
+		std::string str{};
+		for (auto d: Gather(file)) { str.push_back(d); } 
+		return str;
+	}
+
+	auto FileContent(const char* file) const {
+		return FileContent(std::string(file));
+	}
 };
+
 }
