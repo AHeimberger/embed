@@ -1,4 +1,12 @@
-﻿# `std::embed` implementation for the poor (C++17)
+﻿
+# Note
+
+- Purpose of this fork is to test the implementation of MKlimenko: https://github.com/MKlimenko/embed
+
+---
+
+
+# `std::embed` implementation for the poor (C++17)
 
 This repository contains an example implementation of the `std::embed` from the [P1040](https://wg21.link/p1040) proposal. There is an overview in the [blog post](https://mklimenko.github.io/english/2018/11/26/stdembed-for-the-poor/), feedback is highly appreciated.
 
