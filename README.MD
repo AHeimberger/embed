@@ -11,7 +11,7 @@ To distribute arbitrary resources with your application two steps are required:
 
 ## Building
 
-There are two PowerShell scripts used to build and install the application and to remove it.
+- Run "./build.sh".
 
 ## Benchmark
 

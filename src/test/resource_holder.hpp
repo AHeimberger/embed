@@ -1,15 +1,15 @@
 #pragma once
 
 #include "resource.hpp"
-#include "embedded_resources/resource_12073696463075507820.hpp"
-#include "embedded_resources/resource_12244619635858790702.hpp"
+#include "embedded_resources/resource_15331731061380509307.hpp"
+#include "embedded_resources/resource_5391696364361321305.hpp"
 
 namespace {
 class ResourceHolder {
 private:
 	std::array<Resource, 2> resources {
-		Resource(resource_12073696463075507820,	resource_12073696463075507820_path),
-		Resource(resource_12244619635858790702,	resource_12244619635858790702_path),
+		Resource(resource_15331731061380509307,	resource_15331731061380509307_path),
+		Resource(resource_5391696364361321305,	resource_5391696364361321305_path),
 	};
 
 public:
