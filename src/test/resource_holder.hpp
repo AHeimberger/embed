@@ -2,13 +2,15 @@
 
 #include "resource.hpp"
 #include "embedded_resources/resource_15331731061380509307.hpp"
+#include "embedded_resources/resource_7237302007915108813.hpp"
 #include "embedded_resources/resource_5391696364361321305.hpp"
 
 namespace {
 class ResourceHolder {
 private:
-	std::array<Resource, 2> resources {
+	std::array<Resource, 3> resources {
 		Resource(resource_15331731061380509307,	resource_15331731061380509307_path),
+		Resource(resource_7237302007915108813,	resource_7237302007915108813_path),
 		Resource(resource_5391696364361321305,	resource_5391696364361321305_path),
 	};
 
